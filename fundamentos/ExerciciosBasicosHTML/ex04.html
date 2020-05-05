@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Calculo Valor da Prestação</h1>
+        <hr>
+        <script>
+            var valorTotal = eval(prompt("Digite o valor total da prestação"))
+            var taxaDeJuros = eval(prompt("Digite a taxa de juros"))
+            var diasAtrasados = eval(prompt("Digite os dias atrasados"))
+            var prestação = valorTotal + (valorTotal * (taxaDeJuros/100) * diasAtrasados)
+            alert("O valor será de "+prestação)
+        </script>
+    </body>
+</html>
